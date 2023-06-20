@@ -1,0 +1,188 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 100%;
+    background-color: lightcoral;
+}
+  
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+} 
+  
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol,
+ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+  
+* {   
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    line-height: 1.4;
+}
+
+:root {
+    /* Color */
+    --black: #000000;
+    --white: #ffffff;
+    --button: #4074BC;
+
+  
+    /* Font */
+    --rubik: 'Rubik', sans-serif;
+
+    /* Font weight */
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+  
+    /* Fontsize */
+    --h1: 32px;
+    --h2: 26px;
+    --h3: 22px;
+    --h4: 20px;
+    --h5: 18px;
+    --h6: 16px;
+    --p: 16px;
+  
+    /* Border */
+    --radius: 10px;
+}
+  
+/* Widget */
+
+.cs-popup {
+    height: auto;
+}
+
+#cs-open-popup {
+    height: 100px;
+    display: block;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#cs-open-popup > img {
+    width: 100px;
+    height: auto;
+}
+
+#cs-open-popup:hover {
+    animation-name: cs-popup-hover;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+#cs-widget {
+    display: none;
+}
+
+.cs-widget-inside {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    z-index: 5;
+    position: absolute;
+    border-radius: 20px;
+    height: 60vh;
+    bottom: 110px;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    background-color: var(--white);
+    box-shadow: 0px 3px 3px 0px #00000040;
+    overflow: auto;
+}
+
+@keyframes cs-popup-hover {
+    from {rotate: 0deg;}
+    to {rotate: 360deg;}
+}
+
+
+/* Header widget */
+
+.cs-close-popup {
+    font-size: 25px;
+    text-align: end;
+    width: 100%;
+    cursor: pointer;
+}
+
+.cs-widget-inside h1 {
+    font-family: var(--rubik);
+    font-weight: var(--medium);
+    font-size: var(--h2);
+}
+
+.cs-widget-inside h2 {
+    font-family: var(--rubik);
+    font-weight: var(--regular);
+    font-size: var(--p);
+}
+
+.cs-widget-inside h3 {
+    font-family: var(--rubik);
+    font-weight: var(--light);
+    font-size: var(--p);
+}
+
+
+
+/* Inside widget */
+
+.cs-widget-inside-information > img {
+    border-radius: 20px;
+    width: 90%;
+    margin: 10px;
+}
+
+.cs-widget-inside-overnachtingen {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cs-widget-inside-overnachtingen > li {
+    list-style: none;
+    margin: 10px;
+}
+
+/* Button */
+
+.cs-book-now-btn {
+    padding:15px 30px;
+    background-color: var(--button);
+    color: var(--white);
+    border-radius: 10px;
+    font-family: var(--rubik);
+    font-weight: var(--regular);
+    font-size: var(--p);
+    text-decoration: none;
+}
