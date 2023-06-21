@@ -157,19 +157,19 @@ img {
 
 /* Inside widget */
 
-.cs-widget-inside-information > img {
+.cs-widget-inside-flex > img {
     border-radius: 20px;
     width: 90%;
     margin: 10px;
 }
 
-.cs-widget-inside-overnachtingen {
+.cs-widget-inside-overnachtingen-icon {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 
-.cs-widget-inside-overnachtingen > li {
+.cs-widget-inside-overnachtingen-icon > li {
     list-style: none;
     margin: 10px;
 }
@@ -185,4 +185,47 @@ img {
     font-weight: var(--regular);
     font-size: var(--p);
     text-decoration: none;
+}
+
+/* Datum */
+
+.cs-widget-inside-date {
+    display: none;
+}
+
+/* Desktop */
+@media only screen and (min-width: 560px) {
+
+    /* Widget */
+    .cs-widget-inside {
+        width: 40%;
+        height: auto;
+        left: auto;
+        right: 10px;
+    }
+
+    .cs-widget-inside-flex {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+
+    .cs-widget-inside-flex > img {
+        width: 40%;
+    }
+
+    .cs-book-now-btn {
+        margin: 30px;
+        display: inline-block;
+    }
+
+    .cs-widget-inside-date {
+        display: inline-block;
+    }
+
+    #cs-widget-inside-calander {
+        font-size: var(--p);
+        width: auto;
+        margin-top: 10px;
+    }
 }
