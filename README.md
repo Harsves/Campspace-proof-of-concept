@@ -1,7 +1,6 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Campspace widget
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+<img width="744" alt="Schermafbeelding 2023-06-23 om 10 32 57" src="https://github.com/Harsves/Campspace-proof-of-concept/assets/112931845/056a6040-29a2-42ea-8c2b-ef5c5bb9e95f">
 
 ## Inhoudsopgave
 
@@ -13,20 +12,18 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Een widget voor verhuurders van Campspace die een eigen website hebben. Ze kunnen de widget implementeren in hun eigen website doormidden van een kleine snippet code.
 
 ## Gebruik
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+Een verhuurder die hun accomodaties bij Campspace hebben aangeboden en ook een eigen website hebben kunnen deze widget in hun website implementeren. Zo kunnen gebruikers van de website van de verhuurder makkelijk naar de pagina van Campspace als ze besluiten te boeken. 
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
+Ik heb gebruik gemaakt van Javascript om zo een kleine snippet code te genereren die de verhuurder kan toevoegen aan de website. Ook heb ik gebruik gemaakt van een API.
 
 ## Installatie
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
-
-## Bronnen
+1. Fork de repository
+2. Open de code van de geforkte repo in je code editor
+   
 
 ## Licentie
 
